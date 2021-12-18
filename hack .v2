@@ -1,0 +1,9 @@
+while (true) {
+    if (getServerSecurityLevel('target') > X ) {
+        weaken('target');
+    } else if (getServerMoneyAvailable('target') < X ) {
+        grow('target');
+    } else {
+        hack('target');
+    }
+}
